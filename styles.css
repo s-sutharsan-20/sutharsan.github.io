@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+}
+
+header {
+    color: #f5f5f5;
+    background-color: #02063b;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.section-title h2 {
+    font-size: 1.5em;
+    color: #f2f3f8;
+    background-color: #8bc9e6;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.about-me p,
+.skills ul,
+.projects .project,
+.achievements p,
+.connect ul {
+    background-color: rgb(227, 230, 228);
+    padding: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(3, 0, 0, 0.1);
+}
+
+.projects .project a {
+    display: block;
+    margin-top: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.connect ul {
+    list-style: none;
+    padding: 0;
+}
+
+.connect li {
+    margin-bottom: 0.5em;
+}
